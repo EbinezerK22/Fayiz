@@ -89,14 +89,29 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 52px;
+  gap: 6px;
+  min-width: 52px;
   height: 52px;
-  border-radius: 16px;
+  padding: 0 14px;
+  border-radius: 18px;
   background: var(--ink);
   color: #fff;
   font-family: "Space Grotesk", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
+}
+
+.brand-mark {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.brand-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(255, 107, 44, 0.15);
 }
 
 .topbar-links {
